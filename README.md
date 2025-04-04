@@ -1,39 +1,39 @@
 # Learning Management System (LMS)
 
-## 📌 Overview
+## Overview
 The **Learning Management System (LMS)** is a web-based platform designed to manage online courses, assessments, progress tracking, and user interactions efficiently. It is built using **React.js** for the frontend, **Spring Boot** for the backend, and **MySQL** as the database.
 
-## ✨ Features
+## Features
 
-### 🔹 User Management
+### User Management
 - User registration and authentication (Login/Signup).
 - User profile management with update functionality.
 
-### 🔹 Course Management
+### Course Management
 - Admin can create, edit, and delete courses.
 - Course details include name, instructor, description, and syllabus.
 
-### 🔹 Assessments
+### Assessments
 - Users can take assessments related to enrolled courses.
 - Admin can create and manage assessment questions.
 
-### 🔹 Progress Tracking
+### Progress Tracking
 - Track user progress and course completion status.
 - Visual progress representation using dashboards.
 
-### 🔹 Certificate Generation
+### Certificate Generation
 - Auto-generate certificates upon course completion.
 - Personalized certificates with user details.
 
-### 🔹 Discussion Forum
+### Discussion Forum
 - Course-specific discussion boards.
 - Facilitates interaction between users and instructors.
 
-### 🔹 Admin Dashboard
+### Admin Dashboard
 - Course and assessment management.
 - Tracking of students, courses, and enrollments.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend:
 - React.js
@@ -47,7 +47,7 @@ The **Learning Management System (LMS)** is a web-based platform designed to man
 - MySQL
 - Core tables: `course`, `learning`, `progress`, `discussion`, `feedback`, `question`, `user`, `assessment`
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - **Node.js** (for frontend)
@@ -79,7 +79,7 @@ The **Learning Management System (LMS)** is a web-based platform designed to man
    - Frontend runs on: `http://localhost:3000`
    - Backend runs on: `http://localhost:8080`
 
-## 📌 Usage Guide
+## Usage Guide
 
 - **Admin Panel (`http://localhost:3000/dashboard`)**
   - Manage courses and assessments.
@@ -89,7 +89,7 @@ The **Learning Management System (LMS)** is a web-based platform designed to man
   - Enroll in courses and attempt assessments.
   - View progress and download certificates.
 
-## 🤝 Contribution Guidelines
+## Contribution Guidelines
 Contributions are welcome! Follow these steps to contribute:
 1. Fork the repository.
 2. Create a new branch (`feature-branch`).
